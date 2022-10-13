@@ -1,0 +1,76 @@
+﻿.caja{
+    display: flex;
+    width:100%;
+}
+
+.derecha{
+width:70%;
+}
+
+.izquierda {
+ width:30%;
+}
+
+
+body {
+    background: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: #E5E5E5;
+}
+
+.input-texto {
+    float: right;
+    border-radius: 24px;
+    width: 100%;
+    height: 550px;
+    background: #E5E5E5;
+    border:none;
+}
+
+.copiar {
+    width: 50%;
+    height: 50px;
+    border-radius: 24px;
+    background: #D8DFE8;
+    font-size:20px;
+}
+.encriptar {
+    color: white;
+    background: #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.desencriptar {
+    border-radius: 24px;
+    background: #D8DFE8;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.botones {
+    width: 100%;
+    height: 50px;
+    border-radius: 24px;
+    display: flex;
+    justify-content:center;
+}
+
+.mensaje {
+    float: left;
+    width: 100%;
+    height: 600px;
+    border-radius: 24px;
+    background-image: url(Muñeco.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
